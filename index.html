@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Producción Electrónica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="site-shell">
+  <aside class="sidebar">
+    <a href="index.html" class="brand">Producción Electrónica</a>
+    <span class="brand-sub">Ingeniería Mecatrónica · Ibero Puebla</span>
+    <nav>
+      <a href="index.html" class="active">Inicio</a>
+      <details class="sidebar-group" open>
+        <summary>Práctica 1</summary>
+        <div class="sidebar-subnav">
+          <a href="kicad.html">KiCad</a>
+          <a href="mods.html">Mods</a>
+          <a href="monofab.html">MonoFab</a>
+        </div>
+      </details>
+      <div class="sidebar-group-disabled">Práctica 2</div>
+    </nav>
+  </aside>
+
+  <div class="site-main">
+
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <div class="kicker">Ingeniería Mecatrónica · Universidad Iberoamericana de Puebla</div>
+    <h1>Bitácora de Producción Electrónica</h1>
+    <p class="lead">Aquí vamos documentando el proceso de diseño y fabricación de circuitos impresos que desarrollamos a lo largo del semestre, desde la primera práctica hasta el proyecto final.</p>
+  </div>
+</section>
+
+<section id="materia">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>La materia</h2>
+      <p>Producción Electrónica busca que aprendamos el proceso completo detrás de un circuito impreso: del esquemático a la placa terminada, pasando por el diseño de pistas, la fabricación digital y el ensamble final.</p>
+    </div>
+    <div class="tools-row">
+      <span class="tool-chip">KiCad</span>
+      <span class="tool-chip">FabLab</span>
+      <span class="tool-chip">Inkscape</span>
+      <span class="tool-chip">Mods</span>
+      <span class="tool-chip">MonoFab</span>
+    </div>
+  </div>
+</section>
+
+<section id="trabajos">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Trabajos realizados</h2>
+      <p>Cada práctica es un paso más hacia el proyecto final del curso. Cada herramienta tiene su propia página con el proceso completo.</p>
+    </div>
+
+    <details class="accordion" open>
+      <summary>
+        <div class="accordion-title">
+          <span class="status-pill">En desarrollo</span>
+          <h3>Práctica 1 — Diseño y fabricación de PCB</h3>
+        </div>
+        <span class="accordion-chevron">›</span>
+      </summary>
+      <div class="accordion-body">
+        <div class="work-thumb has-img"><img src="images/pcb-render-3d.png" alt="Render 3D de la PCB con botones, LEDs y componentes SMD"></div>
+        <p>Diseño y fabricación de una placa PCB en KiCad, siguiendo un proceso completo que abarca desde el diseño del circuito y la distribución de sus componentes hasta la fabricación física mediante fresado en una placa fenólica con la MonoFab SRM-20.</p>
+        <p style="color:var(--ink); font-size:16.5px; margin:-6px 0 20px;"><strong>Objetivo:</strong> Diseñar, fabricar y comprobar el funcionamiento de una PCB, aplicando correctamente las etapas de diseño electrónico, generación de archivos de manufactura, configuración del fresado y verificación final del circuito.</p>
+
+        <div class="ref-card" style="margin-bottom:22px;">
+          <h4>Componentes usados</h4>
+          <table class="ref-table">
+            <tr><td><span class="ref-num">10</span></td><td>Resistencias (R1–R10)</td></tr>
+            <tr><td><span class="ref-num">4</span></td><td>LEDs, 2 azules y 2 rojos (D1–D4)</td></tr>
+            <tr><td><span class="ref-num">4</span></td><td>Botones / switches táctiles (SW1–SW4)</td></tr>
+            <tr><td><span class="ref-num">2</span></td><td>Conectores PinHeader: J1 alimentación (1x02) y J2 salidas (1x04)</td></tr>
+          </table>
+        </div>
+
+        <div class="tools-row">
+          <a href="kicad.html" class="tool-chip" style="text-decoration:none;">1. Proceso en KiCad →</a>
+          <a href="mods.html" class="tool-chip" style="text-decoration:none;">2. Proceso en Mods →</a>
+          <a href="monofab.html" class="tool-chip" style="text-decoration:none;">3. Proceso en MonoFab →</a>
+        </div>
+      </div>
+    </details>
+
+    <details class="accordion">
+      <summary>
+        <div class="accordion-title">
+          <span class="status-pill" style="color:var(--ink-dim); background:#eef1f6;">Pendiente</span>
+          <h3>Próxima práctica</h3>
+        </div>
+        <span class="accordion-chevron">›</span>
+      </summary>
+      <div class="accordion-body">
+        <p>Este espacio se irá llenando con cada práctica del curso hasta llegar al proyecto final.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section id="equipo">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Equipo</h2>
+    </div>
+    <div class="team-grid">
+      <div class="person">
+        <div class="avatar">AM</div>
+        <h3>Arturo Martínez Sosa</h3>
+        <a href="mailto:203522@iberopuebla.mx">203522@iberopuebla.mx</a>
+        <span class="person-role">Ingeniería Mecatrónica</span>
+      </div>
+      <div class="person">
+        <div class="avatar">AG</div>
+        <h3>Alejandro González Cordero</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ubicacion">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Ubicación</h2>
+    </div>
+    <div class="map-frame">
+      <iframe
+        src="https://www.google.com/maps?q=Universidad&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <p class="loc-caption">[Nombre de la universidad / lugar]</p>
+  </div>
+</section>
+
+<footer>
+  Producción Electrónica — semestre en curso, actualizado conforme avanza el curso.
+</footer>
+
+  </div>
+</div>
+
+</body>
+</html>
